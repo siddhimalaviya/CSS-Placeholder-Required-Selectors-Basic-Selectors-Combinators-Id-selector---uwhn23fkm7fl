@@ -52,10 +52,10 @@
 }
 
 .designation{
-    font-size: 0.75rem;
-    text-align: center;
-    text-transform: uppercase;
-    padding-bottom: 0.5rem;
+   font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
     color: aquamarine;
 }
 
@@ -131,9 +131,12 @@ h4{
     padding: 0.5rem;
 }
 
-@media screen and (max-width:674px) {
-    .main-content{
-        grid-template-columns: repeat(1,1fr);
-    }
+@media screen and (max-width: 673px){
+  .main-content{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .profile-image img{
+    width: 175px;;
+  }
 }
 
